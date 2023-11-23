@@ -1,0 +1,452 @@
+body{
+    background-color: #00AD3B;
+    position: relative;
+    width: 1500px;
+    height: auto;
+    display: inline-block;
+}
+
+/*header*/
+
+.header{
+    background-color:#0D4D2B;
+    width: 100%;
+    height: 90px;
+    border-radius: 5px;
+}
+
+.img_ccislogo{
+    width: 71px;
+    height: 67px;
+    margin: 10px;
+}
+
+.img_comsoclogo{
+    position: absolute;
+    top: 0px;
+    left: 43px; 
+    width: 71px;
+    height: 67px;
+    margin: 10px;
+}
+
+.org_title1{
+    position: absolute;
+    top: 25px;
+    left: 200px;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(127, 127, 127, 0.50);
+    font-family: Hind Mysuru;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.line1{
+    position: absolute;
+    top: 33px;
+    left: 100px;
+    width: 172px;
+    height:1px;
+}
+
+.org_title2{
+    position: absolute;
+    top: 55px;
+    left: 200px;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(127, 127, 127, 0.50);
+    font-family: Hind Mysuru;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.home a{
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    padding-top: 5px;
+    top: 40px;
+    left: 565px;
+    width: 150px;
+    height: 29px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F2F4F3;
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Sanchez;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.events a{
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    padding-top: 5px;
+    top: 40px;
+    left: 750px;
+    width: 150px;
+    height: 29px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F2F4F3;
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Sanchez;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.updates a{
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    padding-top: 5px;
+    top: 40px;
+    left: 935px;
+    width: 150px;
+    height: 29px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F2F4F3;
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Sanchez;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.contact a{
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    padding-top: 5px;
+    top: 40px;
+    left: 1120px;
+    width: 150px;
+    height: 29px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F2F4F3;
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Sanchez;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.burger{
+    position: absolute;
+    top: 14px;
+    left: 700px;
+    width: 72px;
+    height: 54px;
+}
+
+/*First Content*/
+
+.content{
+    margin-top:15px;
+    background-color:#0D4D2B;
+    width: 100%;
+    height: 349px;
+    border-radius: 5px;
+}
+
+.oath4{
+    position: absolute;
+    top: 77px;
+    left: 25px;
+    width: 650px;
+    height: 274px;
+}
+
+.event_title{
+    position: absolute;
+    top: 150px;
+    left: 930px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(244, 244, 244, 0.25);
+    font-family: Fraunces;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Lorem1{
+    position: absolute;
+    top: 220px;
+    left: 880px;
+    width: 525px;
+    height: 134px;
+    border-radius: 5px;
+    background: #F2F4F3;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Merriweather;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.knowm_button a{
+    text-decoration: none;
+    position: absolute;
+    top: 400px;
+    left: 1070px;
+    width: 170px;
+    height: 30px;
+    border-radius: 5px;
+    background: linear-gradient(180deg, #22DD7A 9.38%, rgba(54, 210, 127, 0.00) 100%);
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    padding-top: 10px;
+    font-family: Sanchez;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.line2{
+    position: absolute;
+    top: 90px;
+    left: 384px;
+    width: 3px;
+    height: 213px;
+}
+
+/*Second Content Left*/
+
+.content1{
+    margin-top:15px;
+    float: left;
+    background-color:#0D4D2B;
+    width: 49%;
+    height: 349px;
+    border-radius: 5px;
+}
+
+.content1_title{
+    color: #FFF;
+    padding-top: 10px;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(244, 244, 244, 0.25);
+    font-family: Fraunces;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.img_faculty{
+    position: absolute ;
+    top: 265px;
+    left: 30px;
+    width: 373.079px;
+    height: 172px;
+}
+.big_img_logo{
+    position: absolute ;
+    top: 255px;
+    left: 240px;
+    width: 204px;
+    height: 194px;
+}
+.Lorem2{
+    position: absolute ;
+    top: 700px;
+    left: 85px;
+    text-align: center;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.knowm_button1 a{
+    text-decoration: none;
+    position: absolute;
+    top: 775px;
+    left: 280px;
+    width: 170px;
+    height: 30px;
+    border-radius: 5px;
+    background: linear-gradient(180deg, #22DD7A 9.38%, rgba(54, 210, 127, 0.00) 100%);
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    padding-top: 10px;
+    font-family: Sanchez;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+
+
+/*Second Content Right*/
+
+.content2{
+    margin-top:15px;
+    float: right;
+    background-color:#0D4D2B;
+    width: 49%;
+    height: 349px;
+    border-radius: 5px;
+}
+
+.img_event1{
+    position: absolute ;
+    top: 265px;
+    left: 420px;
+    width: 163px;
+    height: 160px;
+}
+
+.img_event2{
+    position: absolute ;
+    top: 265px;
+    left: 530px;
+    width: 163px;
+    height: 160px;
+}
+
+.img_event3{
+    position: absolute ;
+    top: 265px;
+    left: 640px;
+    width: 163px;
+    height: 160px;
+}
+
+.Lorem3{
+    position: absolute ;
+    top: 685px;
+    left: 900px;
+    width: 513px;
+    height: 61px;
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.knowm_button2 a{
+    text-decoration: none;
+    position: absolute;
+    top: 775px;
+    left: 1070px;
+    width: 170px;
+    height: 30px;
+    border-radius: 5px;
+    background: linear-gradient(180deg, #22DD7A 9.38%, rgba(54, 210, 127, 0.00) 100%);
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    padding-top: 10px;
+    font-family: Sanchez;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+/*Footer*/
+
+.footer{
+    margin-top:380px;
+    background-color:#0D4D2B;
+    width: 100%;
+    height: 92px;
+    border-radius: 5px;
+}
+
+.schooladd{
+    position: absolute;
+    bottom: 14px;
+    left: 110px;
+    color: rgba(34, 221, 122, 0.50);
+    font-family: Hind Mysuru;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+
+.email{
+    position: absolute;
+    bottom: 13px;
+    left: 680px;
+    color: rgba(34, 221, 122, 0.50);
+    font-family: Hind Mysuru;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mini_img_ccislogo{
+    position: absolute;
+    bottom: 10px;
+    left: 340px; 
+    width: 47px;
+    height: 43px;
+    margin: 10px;
+}
+
+.mini_img_comsoclogo{
+    position: absolute;
+    bottom: 10px;
+    left: 365px; 
+    width: 47px;
+    height: 43px;
+    margin: 10px;
+}
+
+.line3{
+    position: absolute;
+    bottom: 15px;
+    left: 55px;
+    width: 1296px;
+    height: 1px;
+}
+
+.learnmore a{
+    text-decoration: none;
+    position: absolute;
+    bottom: 30px;
+    left: 1320px;
+    color: rgba(34, 221, 122, 0.50);
+    text-align: center;
+    font-family: Hind Mysuru;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
